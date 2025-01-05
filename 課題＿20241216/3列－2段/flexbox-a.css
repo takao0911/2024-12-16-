@@ -1,0 +1,19 @@
+.wrapper {
+display: flex;
+flex-wrap: wrap;
+gap: 20px 2%;
+}
+
+.wrapper img {
+width:32%;
+}
+
+@media (max-width:780px) {
+  .wrapper{
+   gap:20px 3%; 
+  }
+
+.wrapper img {
+  width:48.5%;
+}
+}
